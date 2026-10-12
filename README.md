@@ -1,6 +1,6 @@
 # macro-stress-optimizer
 
-**Part 2 of 3:** [macro-stress-pipeline](https://github.com/JRudolphDev/macro-stress-pipeline) | macro-stress-optimizer | [macro-stress-forecaster](https://github.com/JRudolphDev/macro-stress-forecaster)
+> **Archived.** This project now lives in [macro-stress](https://github.com/JRudolphDev/macro-stress), which combines the pipeline, optimizer, and forecaster in one repo. This repo is read-only.
 
 This project extends [macro-stress-pipeline](https://github.com/JRudolphDev/macro-stress-pipeline) with a machine learning layer. The pipeline package (`macro_stress_pipeline`) is inherited unchanged from that project. This repo adds the ML package (`macro_stress_optimizer`), which learns per-indicator weights that maximize AUC between a weighted composite stress score and realized SPY drawdown labels.
 
